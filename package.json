@@ -1,0 +1,23 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "backend of yatch dexception",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "json-server -p 3001 -w db.json",
+    "start": "nodemon server.js"
+  },
+  "author": "francois couach",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "json-server": "^0.16.3",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.15",
+    "nodemailer": "^6.4.17",
+    "nodemon": "^2.0.6"
+  }
+}
